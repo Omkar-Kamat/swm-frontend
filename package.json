@@ -1,5 +1,4 @@
 {
-  "proxy":"https://api-che-swm.onrender.com",
   "name": "swm-frontend",
 
   "version": "0.1.0",
