@@ -29,7 +29,7 @@ function Localinfo() {
           Sewage Treatment Plant &gt;
         </div>
         <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
+          sfhisgfisdfghgdkfjdljfhgyweroi
         </span>
       </div>
     </div>
