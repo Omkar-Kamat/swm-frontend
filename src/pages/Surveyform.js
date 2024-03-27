@@ -23,7 +23,7 @@ function Surveyform() {
     e.preventDefault()
     const survey = {name,age,gender,occupation,location,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9}
 
-    const response = await fetch('/api/survey',{
+    const response = await fetch(`${process.env.PORT}/api/survey`,{
       method:'POST',
       body: JSON.stringify(survey),
       headers:{

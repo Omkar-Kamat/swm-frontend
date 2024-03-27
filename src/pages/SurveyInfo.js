@@ -11,7 +11,7 @@ function SurveyInfo() {
     useEffect(()=>{
       
       const fetchResponse = async ()=>{
-        const response = await fetch('/api/survey')
+        const response = await fetch(`${process.env.PORT}/api/survey`)
         const json = await response.json()
        
 
