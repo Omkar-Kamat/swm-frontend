@@ -9,6 +9,8 @@ import Localinfo from './pages/Localinfo';
 import Creator from './pages/Creator';
 import Stp from './pages/Stp'
 import SurveyInfo from './pages/SurveyInfo';
+import Mess from './pages/Mess';
+import Hospital from './pages/Hospital';
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path="/local-info" element={<Localinfo/>} />
         <Route path="/creator-info" element={<Creator/>} />
         <Route path="/stp" element={<Stp/>} />
+        <Route path="/mess-agro-food-court" element={<Mess/>} />
+        <Route path="/hospital" element={<Hospital/>} />
         <Route path="/local-survey-info" element={<SurveyInfo/>} />
       </Routes>
       <Footer/>

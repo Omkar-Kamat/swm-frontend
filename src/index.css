@@ -145,4 +145,8 @@ label{
     .local-survey-info{
         width: 320px;
     }
+    .info-page{
+        width:340px;
+        margin: auto;
+    }
 }

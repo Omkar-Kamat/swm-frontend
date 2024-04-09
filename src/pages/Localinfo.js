@@ -11,12 +11,9 @@ function Localinfo() {
     <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
       <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
       <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
+        <div className='block px-2 w-[350px] mb-4 font-semibold'>
           Local Survey Information &gt;
         </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
-        </span>
       </div>
     </div>
     </Link>
@@ -25,86 +22,37 @@ function Localinfo() {
     <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
       <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
       <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
+        <div className='block px-2 w-[350px] mb-4 font-semibold'>
           Sewage Treatment Plant &gt;
         </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi
-        </span>
+      
       </div>
     </div>
     </Link>
 
-    <Link to='/stp'>
+    <Link to='/mess-agro-food-court'>
     <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
       <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
       <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
-          Mess &gt;
+        <div className='block px-2 w-[350px] mb-4 font-semibold'>
+          Mess, Agriculture and Food courts &gt;
         </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
-        </span>
-      </div>
-    </div>
-    </Link>
-
-    <Link to='/stp'>
-    <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
-      <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
-      <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
-          Housekeepers &gt;
-        </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
-        </span>
+        
       </div>
     </div>
     </Link>
     
-
-    <Link to='/stp'>
+    {/* <Link to='/hospital'>
     <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
       <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
       <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
-          Canteen &gt;
-        </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
-        </span>
-      </div>
-    </div>
-    </Link>
-    
-    <Link to='/stp'>
-    <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
-      <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
-      <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
-          Agriculture &gt;
-        </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
-        </span>
-      </div>
-    </div>
-    </Link>
-    
-    <Link to='/stp'>
-    <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
-      <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
-      <div className='w-[350px] mx-auto'>
-        <div className='block px-2 w-[350px] font-semibold'>
+        <div className='block px-2 w-[350px] mb-4 font-semibold'>
           Hospital &gt;
         </div>
-        <span className='block p-2 pb-4'>
-          sfhisgfisdfghgdkfjdljfhgyweroi wljngflkjhdgfyudrlnjekg kjrbgieyrignsjhbgjldsrgiuerh
-        </span>
+        
       </div>
     </div>
-    </Link>
+    </Link> */}
     
 
 

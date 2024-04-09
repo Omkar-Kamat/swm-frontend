@@ -1,5 +1,6 @@
 import React from 'react';
 import img1 from '../images/img1.jpeg'
+import rs3 from '../images/3Rs-pic.webp'
 
 
 
@@ -50,8 +51,14 @@ function Home() {
             </li>
             </ul>   
         </div>
+        <div >
+
         <div className='w-[400px] h-[400px]'>
           <img src={img1} alt="types of solid wastes" className="w-[380px] h-[380px] rounded-[1rem] my-[10px] mx-auto"/>
+        </div>
+        <div className='w-[400px] h-[400px]'>
+          <img src={rs3} alt="types of solid wastes" className="w-[380px] h-[380px] rounded-[1rem] my-[10px] mx-auto"/>
+        </div>
         </div>
       </div>
     <div>

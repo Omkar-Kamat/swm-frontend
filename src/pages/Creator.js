@@ -1,5 +1,6 @@
 import React from 'react'
 import omkar from '../images/omkar.png'
+import agrim from '../images/agrim.jpg'
 function Creator() {
   return (
     <>
@@ -19,12 +20,12 @@ function Creator() {
     </div>
     <div className="lul shadow-lg w-[350px] h-[380px] text-center mx-8 my-4 rounded-[1.5rem]">
       <div className=" w-[10rem] mx-auto my-12 flex flex-col justify-center">
-      <img src={omkar} alt="Agrim" className="w-[10rem] rounded-[50%]"/>
+      <img src={agrim} alt="Agrim" className="w-[10rem] rounded-[50%]"/>
       </div>
       <div className="my-auto">
         <span className="creatorInfo block text-[1.25rem] font-bold">Agrim Saksena</span>
         <span className="creatorInfo block text-[1.25rem] font-semibold">Lovely Professional University</span>
-        <span className="creatorInfo block text-[1.25rem] font-medium">Student - B.Tech. CSE - 123*****</span>
+        <span className="creatorInfo block text-[1.25rem] font-medium">Student - B.Tech. CSE - 12325726</span>
         <span></span>
       </div>
     </div>
