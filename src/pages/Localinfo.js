@@ -1,5 +1,7 @@
 import React from 'react'
-import stp from '../images/stp.webp'
+import stp from '../images/dewatering.jpg'
+import survey from '../images/survey.webp'
+import foodcourt from '../images/foodcourt.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -9,7 +11,7 @@ function Localinfo() {
     <main className="localInfo grid grid-cols-2 gap-8 justify-items-center mx-auto justify-evenly w-[982px] mobile poppins">
     <Link to="/local-survey-info">
     <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
-      <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
+      <img src={survey} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
       <div className='w-[350px] mx-auto'>
         <div className='block px-2 w-[350px] mb-4 font-semibold'>
           Local Survey Information &gt;
@@ -32,7 +34,7 @@ function Localinfo() {
 
     <Link to='/mess-agro-food-court'>
     <div className='rounded-[1rem] w-[375px] shadow-lg flex flex-col justify-center '> 
-      <img src={stp} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
+      <img src={foodcourt} alt="x" className='w-[350px] mx-auto my-4 rounded-[0.85rem]' />
       <div className='w-[350px] mx-auto'>
         <div className='block px-2 w-[350px] mb-4 font-semibold'>
           Mess, Agriculture and Food courts &gt;

@@ -4,7 +4,7 @@ function Mess() {
   return (
     <>
     <main className="mx-auto w-[982px] mobile poppins info-page">
-      <div>SOLID WASTE MANAGEMENT AT MESS, FOODCOURTS AND AGRICULTURE</div>
+      <div className='text-center font-bold py-4'>SOLID WASTE MANAGEMENT AT MESS, FOODCOURTS AND AGRICULTURE</div>
     <div className='my-4'>
     Solid waste generated in food messes and food courts typically consists of various materials, including organic waste, packaging materials, paper products, plastics, glass, and metals. Managing solid waste in these settings is crucial to minimize environmental impact, reduce landfill usage, and promote sustainability. Here are some key aspects of solid waste management in food messes and food courts:
     </div>
